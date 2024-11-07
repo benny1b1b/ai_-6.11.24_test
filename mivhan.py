@@ -174,7 +174,7 @@ list_temp: list[float] = []
 while len(list_temp) < total:
     try:
         temperature = float(input("enter temperature:"))
-        if temperature < -5 or temperature > 40:# if invalid data , stop and print only!
+        if temperature < -5 or temperature > 40:
             print("wrong data")
             break
         print("correct data")
